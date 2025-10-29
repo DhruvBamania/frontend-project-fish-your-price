@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Your Price - Fresh Fish at Your Fingertips</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button class="login" onclick="login()">Login</button>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Fresh Fish, Fair Prices</h1>
+            <p>Dive into a world of quality seafood at your fingertips</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </section>
+
+        <section id="products" class="featured-products">
+            <h2>Our Catch of the Day</h2>
+            <div class="product-grid">
+                <!-- Product cards will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section id="about" class="about-us">
+            <h2>About Fish Your Price</h2>
+            <p>At Fish Your Price, we're passionate about delivering the freshest catch straight to your plate. Our team of experienced fishermen and quality control experts ensure that you get nothing but the best seafood at fair prices. We source our fish from sustainable fisheries and work closely with local fishing communities to bring you the finest seafood while supporting responsible fishing practices.</p>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2>Get in Touch</h2>
+            <form id="fish-order-form" name="contact" method="POST" data-netlify="true" onSubmit="submit">
+                <input type="text" placeholder="Your Name" required name="name">
+                <input type="email" placeholder="Your Email" required name="email">
+                <textarea placeholder="Your Message or Order Details" required name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fish Your Price. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
