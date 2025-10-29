@@ -1,5 +1,10 @@
 # 🐟 Fish Your Price – Frontend Prototype
 
+![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Frontend%20Prototype-orange?style=for-the-badge)
+
 ---
 
 ## 📚 Table of Contents
@@ -102,6 +107,9 @@ cd fish-your-price-frontend
 3. **Open the project**
 Open index.html in your browser.
 
+**🌐 Live Preview:**
+https://fishyourprice.netlify.app/
+
 ---
 
 ## 🖼️ Screenshots
@@ -156,3 +164,4 @@ If you’d like to enhance this project:
 **💼 LinkedIn:** [www.linkedin.com/in/dhruvbamania]
 
 ---
+
