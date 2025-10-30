@@ -159,9 +159,10 @@ If you’d like to enhance this project:
 
 ## 📬 Contact
 
-**📧Email:** [dhruvbamania02@gmail.com]
-**🌐 GitHub:** [https://github.com/DhruvBamania]
-**💼 LinkedIn:** [www.linkedin.com/in/dhruvbamania]
+**📧Email:** [dhruvbamania02@gmail.com]  
+**🌐 GitHub:** [https://github.com/DhruvBamania]  
+**💼 LinkedIn:** [www.linkedin.com/in/dhruvbamania]  
 
 ---
+
 
